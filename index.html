@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3D Space Shooter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="ui">
+    <h1>3D Starfighter</h1>
+    <p><strong>Left / Right Arrows</strong> to steer &bull; <strong>Spacebar</strong> to fire</p>
+    <div class="hud">Score: <span id="score">0</span></div>
+    <button id="restartBtn" onclick="startGame()" style="display:none;">Play Again</button>
+  </div>
+
+  <!-- Load Three.js 3D Engine -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

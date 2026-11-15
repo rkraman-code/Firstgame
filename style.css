@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+
+#ui {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  pointer-events: none;
+}
+
+h1 {
+  margin: 0;
+  color: #00ffcc;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+.hud {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+button {
+  pointer-events: auto;
+  margin-top: 15px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #00ffcc;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
